@@ -1,0 +1,11 @@
+<div class="step-container">
+    <div class="step-line"></div>
+    <div class="step-item" *ngFor='let item of items;let i=index' [ngClass]="item.selected?'step-item-selected':''" (click)="onItemSelect(item,i)">
+        <div class="step-item-info">
+            <div class="step-item-icon">{{i+1}}</div>
+        </div>
+        <div class="step-item-dtl">
+            {{item.label}}
+        </div>
+    </div>
+</div>

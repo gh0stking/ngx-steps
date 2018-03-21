@@ -1,0 +1,50 @@
+.step-container{
+    width:100%;
+    height:75px;
+    display:flex;
+    position: relative;
+}
+
+.step-item{
+    flex:1;
+    z-index:1002;
+}
+
+.step-item-selected{
+    color:black;
+    font-weight:700;
+}
+
+.step-item-info{
+    width:100%;
+    height:35px;
+    text-align:center;
+}
+
+.step-item-icon{
+    background-color:#2EA59F;
+    border-radius:35px;
+    height:100%;
+    width:35px;
+    line-height:35px;
+    text-align:center;
+    margin:0 auto;
+    color:white;
+    cursor: pointer;
+}
+
+.step-item-dtl{
+    text-align:center;
+    height:40px;
+    line-height:40px;
+    cursor: pointer;
+}
+
+.step-line{
+    height:2px;
+    width:100%;
+    position: absolute;
+    top:17px;
+    background-color: #DDDDDD;
+    z-index:1001;
+}
